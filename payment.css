@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.buy{
+   text-align: start;
+   text-decoration: none;
+}
+.h1{
+    text-align: center;
+}
+.options{
+    list-style: none;
+    width: 660px;
+    margin: auto;
+}
+li{
+    border: 1px rgb(69, 69, 69) solid;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+}
+.container{
+    padding: 10px;
+}
+.contain{
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: 40px;
+    width: 290px;
+    height: 390px;
+    border-radius: 20px;
+    margin: auto;
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 7px 6px 15px rgba(87, 87, 87, 0.836);
+}
+.containing{
+    padding: 10px;
+}
+.contained{
+    padding: 10px;
+}
+span{
+    font-size: x-small;
+    font-weight: 700;
+    font-style: italic;
+    padding: 10px;
+    color: rgba(54, 54, 54, 0.6);
+}
+img{
+    width: 50px;
+    align-items: center;
+}
+.jpg{
+    width: 100%;
+}
+button{
+    width: 660px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background: white;
+    border: 1px black solid;
+    text-align: left;
+}
+.pay{
+    color: red;
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: center;
+}
+@media (max-width: 668px){
+   
+}

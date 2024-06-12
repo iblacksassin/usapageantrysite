@@ -1,0 +1,217 @@
+
+/**/
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin:0;
+    background: white;
+}
+/* Header */
+header{
+    width: 92.5%;
+    height: 80px;
+    background: rgba(145, 7, 145, 0.767);
+    position: relative  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-bottom: 20px;
+    border-bottom: rgb(18, 18, 18) 5px solid;
+}
+.header{
+    color: rgb(225, 173, 41) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.imgs{
+    width: 20%;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 0 2px;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: Arial;
+    padding: 6px 15px;
+    transition: 0.2s;
+    border-radius: 30px;
+}
+li{
+    list-style: none;
+}
+nav ul li a:hover{
+    background: rgba(225, 173, 41, 0.691);
+}
+nav ul li a.current{
+    background: rgb(225, 173, 41);
+    color: white;
+}
+nav ul li a.current:hover{
+    background: rgba(225, 173, 41, 0.691);
+}
+.hamburger{
+    display: none;
+    height: fit-content;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.hamburger:hover{
+    background: rgba(0, 0, 0, 0.35);
+}
+.hamburger div{
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background: white;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 1.5rem;
+}
+.h1{
+    color:  rgb(225, 173, 41);
+}
+/*vote*/
+.voter{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.vote{
+    border-radius: 15px;
+    background: rgba(145, 7, 145, 0.767);
+    padding: 30px;
+    width: 280px;
+    margin: auto;
+    box-shadow: 20px 7px 15px rgb(12, 12, 12);
+}
+.vote:hover{
+    transform:translateY( 5px);
+}
+.p{
+    background: rgba(255, 255, 255, 0.544);
+    color: black;
+    font-size: .8rem;
+    padding: 8px;
+    width: 17rem;
+}
+.class{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-size: medium;
+    font-style: italic;
+}
+input{
+    background: rgba(255, 255, 255, 0.666);
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px;
+    width: 250px;
+    color: whitesmoke;
+}
+::placeholder{
+    color: black;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    box-shadow: 7px 5px 7px rgb(8, 8, 8);
+}
+.btn:hover{
+    background: rgba(145, 7, 145, 0.767);
+    transform: translateY( -3px);
+}
+button{
+    background:rgba(145, 7, 145, 0.767);
+    border-radius: 30px;
+    text-align: center;
+    border: 0;
+    width: 70px;
+    height: 30px;
+    box-shadow: 5px 2px 5px rgb(36, 35, 35);
+}
+button:hover{
+    background: rgb(37, 36, 36);
+    transform: translateY( -2px);
+}
+a{
+    color: black;
+}
+@media (max-width:868px) {
+    header{
+        width: 95%;
+        padding: 0 20px;
+        position: relative;
+    }
+    .pan{
+        color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2.5rem;
+    }
+    .capital{
+        padding-top: 10rem;
+    }
+    .cap{
+        width: 22rem;
+        margin: auto;
+        justify-self: center;
+    }
+    .collect{
+        padding: 20px;
+        top: 15%;
+    }
+
+    nav{
+        position:absolute;
+        left: -300px;
+        top: 0;
+        z-index: 999;
+        width: 280px;
+        height: 100vh;
+        background-color: rgb(56, 54, 54);
+        transition: 0.2s;
+    }
+    #nav_check:checked ~ nav{
+        left: 0;
+    }
+    nav .header{
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+    nav ul li a{
+        margin-bottom: 5px;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    nav ul {
+        display: block;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+    nav ul li a:hover{
+        background: rgba(225, 173, 41, 0.691);
+    }
+    nav ul li a.current{
+        background: rgb(225, 173, 41);
+        color: white;
+    }
+    nav ul li a.current:hover{
+        background: rgba(225, 173, 41, 0.691);
+    }
+    .hamburger{
+        display: block;
+    }
+}
