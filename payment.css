@@ -26,7 +26,17 @@ a{
     padding-left: 30px;
 }
 .container{
-    padding: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    width: 270px;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;
+    background: rgba(239, 238, 238, 0.811);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 7px 6px 15px rgba(87, 87, 87, 0.836);
 }
 .contain{
     text-align: center;
